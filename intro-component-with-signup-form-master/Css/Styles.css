@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+body {    
+    background-image: linear-gradient(rgb(255 122 122),rgb(255 122 122)), url(images/bg-intro-mobile.png);
+}
+    
+.main_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.section1 {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.section1 h1 {
+    width: 81%;
+    font-size: 30px;
+    margin: auto;
+}
+.section1 p {
+    font-size: 16px;
+    margin: 20px auto;
+    color:hsl(0deg 3% 89%);
+}
+.section2 {
+    text-align: center;
+}
+.section2 .try {
+    background: hsl(246deg 45% 42%); 
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 6px 0px #00000036;
+}
+.section2 .try p {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2;
+    width: 60%;
+    margin: auto;
+}
+.section2 .try p span {
+    font-weight: lighter;
+}
+.section2 .form {
+    background: white;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 6px 0px #00000036;
+}
+.section2 .form form input {
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+    width: 75%;
+    border: 1px solid hsl(246, 25%, 77%);
+    outline: none;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
+.section2 .form form button {
+    width: 85%;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background: green;
+    border: none;
+}
+.section2 .form form button:active {
+    background: hsl(120deg 100% 25% / 61%);
+}
+.section2 .form p {
+    color: hsl(246, 25%, 77%);
+    font-size: 11px;
+    line-height: 2;
+    margin: 10px auto 20px;
+    width: 60;
+    width: 75%;
+}
+.section2 .form p span {
+    color: red;
+    font-weight: bold;
+}
+
+/* ---------- for big screens -------- */
+
+@media (min-width: 400px) {
+    .main_wrapper {
+        flex-wrap: nowrap;
+        width: 85%;
+        margin-top: 105px;
+    }
+    .section1 {
+        text-align: left;
+        width: 45%;  
+        margin-right: 10px;
+    }
+    .section1 p {
+        width: 90%;
+        margin: 20px 0;
+    }
+    .section1 h1 {
+        margin: 0;
+        width: 100%;
+        font-size: 50px;
+    }
+    .section2 {
+        width: 650px;
+    }
+    .section2 .form form button {
+        width: 80%;
+    }
+}
