@@ -5,7 +5,7 @@
     color: white;
 }
 body {    
-    background-image: linear-gradient(rgba(255, 122, 122, .5),rgba(255, 122, 122, .5)), url(/images/bg-intro-mobile.png);
+    background-image: linear-gradient(rgba(255, 122, 122, .9),rgba(255, 122, 122, .9)), url(/images/bg-intro-mobile.png);
 }
     
 .main_wrapper {
